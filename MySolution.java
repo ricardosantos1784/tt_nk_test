@@ -1,7 +1,6 @@
 /*
 ATTENTION - Attention: do not consider the code below as part of the test; it was just for study purposes.
-this is my fixed solution. 
-
+this is my fixed solution.
 Smallest window in a String containing all characters of other String
 Given two strings, string and pattern, the task is to find the smallest substring in string containing all characters of pattern.
 
@@ -18,7 +17,7 @@ Output: “ksfor”
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class MySolution {
     public static void main(String[] args) {
         String response = smallestWindow("geeksforgeeks", "ork");
         System.out.println("result: " + response);
